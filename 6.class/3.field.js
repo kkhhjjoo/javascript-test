@@ -14,6 +14,6 @@ class Fruit {
 }
 
 const apple = new Fruit('apple', '🍎');
-//apple.#name = '오렌지';
+//apple.#name = '오렌지'; //#field는 외부에서 접근이 불가능함
 console.log(apple);
 //apple.display();
